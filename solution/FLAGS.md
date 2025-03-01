@@ -1,3 +1,3 @@
 # FLAGS
 
-- `ATHACKCTF{printf('$$$money$$$');}`
+- `ATHACKCTF{printf('$money$');}`
