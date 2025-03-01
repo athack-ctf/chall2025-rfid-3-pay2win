@@ -1,0 +1,34 @@
+# Name should be "Challenge name" if only one flag, or
+# "Challenge name - 1", "Challenge name - 2", etc. if multiple ones.
+# Be careful of the spaces before and after the '-'
+name: "RFID 3 - Pay2Win"
+author: ""
+category: <Hardware>
+description: |
+    Money can really buy anything these days man...
+
+    NOTE: you'll need the RFID reader that booked in RFID 1!
+    
+value: 600
+
+# Let's put the challenges as standard for now and we can script to change
+type: standard
+
+
+# Flags specify answers that your challenge use. You should generally provide at least one.
+flags:
+  - type: "static"
+    content: "ATHACKCTF{printf('$money$');}"
+    data: "case_insensitive"
+
+
+# Available: beginner, interac
+tags:
+    - interac
+
+# Provide paths to files from the same directory that this file is in
+
+# Put hidden by default
+state: visible
+
+version: "0.1"
