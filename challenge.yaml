@@ -1,0 +1,21 @@
+name: "RFID 3 - Pay2Win"
+author: "Hugo"
+category: <Hardware>
+description: |
+    Money can really buy anything these days man...
+    
+value: 600
+
+type: standard
+
+flags:
+  - type: "static"
+    content: "ATHACKCTF{printf('$money$');}"
+    data: "case_insensitive"
+
+tags:
+    - interac
+
+state: visible
+
+version: "0.1"
