@@ -1,6 +1,6 @@
 name: "RFID 3 - Pay2Win"
 author: "Hugo"
-category: <Hardware>
+category: Hardware
 description: |
     Money can really buy anything these days man...
     
@@ -14,7 +14,7 @@ flags:
     data: "case_insensitive"
 
 tags:
-    - interac
+    - sponsored
 
 state: visible
 
