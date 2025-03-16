@@ -3,6 +3,11 @@ author: "Hugo"
 category: Hardware
 description: |
     Money can really buy anything these days man...
+
+    ## About the Automatic Terrible Machine (ATM)
+    At @HACK 2025, participants hacked a custom Automatic Terrible Machine (ATM) using RFID cards (the card mention above). 
+    Since this challenge requires a physicla setup, we're sharing it for historical reference. 
+    THe utilities used to create an operate ATM challenges are available [here](https://github.com/athack-ctf/chall2025-atm-rfid-utilities).
     
 value: 600
 
